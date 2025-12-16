@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		8C87724D2EF135910099AB73 /* s_first.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = s_first.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C87724D2EF135910099AB73 /* s_practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = s_practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -40,7 +40,7 @@
 		8C87724E2EF135910099AB73 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8C87724D2EF135910099AB73 /* s_first.app */,
+				8C87724D2EF135910099AB73 /* s_practice.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8C87724C2EF135910099AB73 /* s_first */ = {
+		8C87724C2EF135910099AB73 /* s_practice */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8C8772592EF135920099AB73 /* Build configuration list for PBXNativeTarget "s_first" */;
+			buildConfigurationList = 8C8772592EF135920099AB73 /* Build configuration list for PBXNativeTarget "s_practice" */;
 			buildPhases = (
 				8C8772492EF135910099AB73 /* Sources */,
 				8C87724A2EF135910099AB73 /* Frameworks */,
@@ -63,11 +63,11 @@
 			fileSystemSynchronizedGroups = (
 				8C87724F2EF135910099AB73 /* s_first */,
 			);
-			name = s_first;
+			name = s_practice;
 			packageProductDependencies = (
 			);
 			productName = s_first;
-			productReference = 8C87724D2EF135910099AB73 /* s_first.app */;
+			productReference = 8C87724D2EF135910099AB73 /* s_practice.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8C8772482EF135910099AB73 /* Build configuration list for PBXProject "s_first" */;
+			buildConfigurationList = 8C8772482EF135910099AB73 /* Build configuration list for PBXProject "s_practice" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8C87724C2EF135910099AB73 /* s_first */,
+				8C87724C2EF135910099AB73 /* s_practice */,
 			);
 		};
 /* End PBXProject section */
@@ -316,7 +316,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8C8772482EF135910099AB73 /* Build configuration list for PBXProject "s_first" */ = {
+		8C8772482EF135910099AB73 /* Build configuration list for PBXProject "s_practice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8C8772572EF135920099AB73 /* Debug */,
@@ -325,7 +325,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8C8772592EF135920099AB73 /* Build configuration list for PBXNativeTarget "s_first" */ = {
+		8C8772592EF135920099AB73 /* Build configuration list for PBXNativeTarget "s_practice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8C87725A2EF135920099AB73 /* Debug */,

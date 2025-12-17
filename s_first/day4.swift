@@ -10,7 +10,8 @@ import SwiftUI
 
 
 struct day4: View {
-    @State var count = 10
+    @State var count = 0
+    @State var isOn = false
     var body: some View {
         Text("Count: \(count)")
             .font(.title)
@@ -24,6 +25,13 @@ struct day4: View {
             }
             .customButtonStyle(color: Color.red, foregroundColor: Color.black)
         }
+        
+        Toggle("Enable Notifications \(isOn)", isOn: $isOn)
+            .padding()
+        Text("Count: \(count)")
+            .font(.system(size: 50, weight: .bold))
+            .foregroundColor(count > 0 ? .green : count < 0 ?
+                .red : .yellow)
      
     }
 }

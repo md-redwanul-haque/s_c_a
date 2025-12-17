@@ -14,7 +14,7 @@ struct day4: View {
     @State var isOn = false
     var body: some View {
         Text("Count: \(count)")
-            .font(.title)
+            .font(.system(size: 50, weight: .bold))
         HStack {
             Button("Decrease") {
                 count -= 1

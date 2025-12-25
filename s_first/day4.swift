@@ -52,6 +52,6 @@ extension Button {
                     .stroke(.white, lineWidth: 15)
                     .fill(color)  // Use the dynamic color here
             )
-            .padding()
+        
     }
 }

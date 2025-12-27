@@ -38,6 +38,11 @@ struct day4_List_play: View {
                     .font(.caption)
             
             }
+            
+//            List(logs , id: \.self) { log in Text(log)
+//                    .font(.caption)
+//            
+//            }
             .padding()
          
         

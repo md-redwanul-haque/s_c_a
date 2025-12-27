@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8CB160082EFFBC470018B1CA /* day_5_basiclist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB160072EFFBC470018B1CA /* day_5_basiclist.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		8C87724D2EF135910099AB73 /* s_practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = s_practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CB160072EFFBC470018B1CA /* day_5_basiclist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day_5_basiclist.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,7 @@
 		8C8772442EF135910099AB73 = {
 			isa = PBXGroup;
 			children = (
+				8CB160072EFFBC470018B1CA /* day_5_basiclist.swift */,
 				8C87724F2EF135910099AB73 /* s_first */,
 				8C87724E2EF135910099AB73 /* Products */,
 			);
@@ -119,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CB160082EFFBC470018B1CA /* day_5_basiclist.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
